@@ -6,7 +6,8 @@ class DisclaimerOptions {
     private $message_disclaimer;
     private $redirection_ko;
     
-    function __construct() {
+    
+    function __construct($id_disclaimer =  "Nc", $message_disclaimer = "Nc", $redirection_ko = "Nc") {
         $this->id_disclaimer = $id_disclaimer;
         $this->message_disclaimer = $message_disclaimer;
         $this->redirection_ko = $redirection_ko;
@@ -24,7 +25,7 @@ class DisclaimerOptions {
    /**
     * Get the value of message_disclaimer
     */
-    public function getMessageDisclaimer()
+    public function getMessage_disclaimer()
     {
         return $this->message_disclaimer;
     }
@@ -34,7 +35,7 @@ class DisclaimerOptions {
  * @return self
  */
 
-public function setMessageDisclaimer($message_disclaimer)
+public function setMessage_disclaimer($message_disclaimer)
 {
 $this->message_disclaimer = $message_disclaimer;
 return $this;
@@ -43,7 +44,7 @@ return $this;
 /**
  * Get the value of redirection_ko
  */
-public function getRedirectionko() 
+public function getRedirection_ko() 
 { 
     return $this->redirection_ko;
 }
@@ -52,9 +53,10 @@ public function getRedirectionko()
  * @return self
  */
 
- public function setRedirection($redirection_ko)
+ public function setRedirection_ko($redirection_ko)
  {
     $this->redirection_ko = $redirection_ko;
     return $this;
  }
 }
+

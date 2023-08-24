@@ -1,0 +1,37 @@
+.btn-red {
+    color: #fff;
+    background: #FF0066;
+    padding: .5rem 1rem;
+    display: inline-block;
+    border-radius: 4px;
+    transition-duration: .25s;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+    justify-content: center;
+    /* align-items: center; */
+    /* margin: auto; */
+}
+
+.btn-green {
+    color: #fff;
+    background: #87bb34;
+    padding: .5rem 1rem;
+    display: inline-block;
+    border-radius: 4px;
+    transition-duration: .25s;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    /* align-items: center; */
+    /* margin: auto; */
+}
+.modal{
+}
+/* #monModal {
+
+    text-align: center;
+    align-items: center;
+} */
